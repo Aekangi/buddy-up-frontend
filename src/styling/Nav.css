@@ -2,10 +2,11 @@ nav {
     padding: 2rem 0 1rem 0;
     font-size: 1.5rem;
     display: flex;
+    /* position: fixed; */
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: cadetblue;
+    background-color: rgb(187, 221, 222);
 }
 
 nav a {

@@ -1,5 +1,5 @@
 .activityCardWithTitle h2 {
-    color: #FDC4E6;
+    color: #21826b;
 }
 
 .activityCardWithTitle {
@@ -17,7 +17,8 @@
     transition: all 0.3s ease;
 }
 
-.activityCardImage, .activityDescription {
+.activityCardImage,
+.activityDescription {
     max-height: 500px;
     max-width: 500px;
     width: 50vh;

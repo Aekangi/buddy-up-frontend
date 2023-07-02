@@ -3,14 +3,19 @@
 }
 
 body {
-  background-color: #124039;
+  /* background-color: #124039; */
+  background-image: url("./image/home1.jpeg");
+  background-size: cover;
+  /* opacity: .; */
 }
 
-a, p {
-  color: white
+a,
+p {
+  color: rgb(255, 255, 255)
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 
@@ -101,7 +106,7 @@ button, a {
 
 .aboutMeTitle {
   font-size: 20px;
-  background-color:#FDC4E6;
+  background-color: #FDC4E6;
   height: 200px;
   z-index: 1;
   justify-content: center;
@@ -121,8 +126,8 @@ button, a {
   border-radius: 10px;
   position: absolute;
   width: 80%;
-  left:50%;
-  transform:translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 15px;
   background-color: rgba(177, 167, 167, 0.747);
   z-index: 2;
@@ -131,7 +136,7 @@ button, a {
 
 .aboutMeInfo ul {
   list-style: none;
-  
+
 }
 
 .aboutMeInfo button {
@@ -142,24 +147,27 @@ button, a {
   font-size: 18px;
 }
 
-.aboutMeInfo p, .aboutMeInfo ul, .aboutMeInfo a, .aboutMeInfo button {
+.aboutMeInfo p,
+.aboutMeInfo ul,
+.aboutMeInfo a,
+.aboutMeInfo button {
   margin: 20px 20px 20px 20px;
 }
 
 .signInPage {
-  border: .2px solid  rgba(177, 167, 167, 0.747);
+  border: .2px solid rgba(177, 167, 167, 0.747);
   border-radius: 25px;
   position: absolute;
   height: 600px;
   width: 500px;
   margin-top: 50px;
-  left:50%;
-  transform:translateX(-50%);
+  left: 50%;
+  transform: translateX(-50%);
   background-color: rgba(177, 167, 167, 0.747);
   box-shadow: 20px 20px 50px 10px rgb(173, 152, 152)
 }
 
-.signInPage h1{
+.signInPage h1 {
   font-size: 60px;
   background-color: rgba(163, 136, 136, 0.747);
   margin-top: 0;
@@ -168,12 +176,12 @@ button, a {
   height: 100px;
 }
 
-.loginLabel{
+.loginLabel {
   font-size: 20px;
   margin-top: 10px;
 }
 
-.signInPage input{
+.signInPage input {
   height: 20px;
   width: 200px;
   border: 2px solid black;
@@ -195,12 +203,12 @@ button, a {
 .registerPage {
   border: 2px solid white;
   position: absolute;
-  left:50%;
-  transform:translateX(-50%);
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 40px;
   height: 850px;
   width: 500px;
-  border: .2px solid  rgba(177, 167, 167, 0.747);
+  border: .2px solid rgba(177, 167, 167, 0.747);
   border-radius: 25px;
   background-color: rgba(177, 167, 167, 0.747);
   box-shadow: 20px 20px 50px 10px rgb(173, 152, 152)
@@ -212,13 +220,13 @@ button, a {
   margin-bottom: 3px;
 }
 
-.registerPage h1{
-    font-size: 60px;
-    background-color: cadetblue;
-    margin-top: 0;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: 100px;
+.registerPage h1 {
+  font-size: 60px;
+  background-color: cadetblue;
+  margin-top: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 100px;
 }
 
 .registerPage input {
@@ -232,7 +240,7 @@ button, a {
   background-color: transparent;
 }
 
-.registerPage textarea{
+.registerPage textarea {
   background-color: rgba(194, 189, 189, 0.747);
   height: 100px;
   width: 300px
@@ -259,29 +267,28 @@ button, a {
   margin-top: 20px;
   margin-left: 20px;
   border-radius: 80px;
-  box-shadow: 20px 20px 50px 10px #FDC4E6
-  ;
+  box-shadow: 20px 20px 50px 10px #FDC4E6;
 }
 
 .profileRight {
   grid-column: 2/3;
   margin-top: 10px;
-  
+
 }
 
-.profileRight h1{
+.profileRight h1 {
   font-size: 40px;
   margin-top: 10px;
   color: white
 }
 
-.profileRight h2{
+.profileRight h2 {
   font-size: 25px;
   margin-top: 10px;
   color: #FDC4E6;
 }
 
-.profileRight h3{
+.profileRight h3 {
   color: white
 }
 
@@ -307,7 +314,7 @@ button, a {
   margin-top: 40px;
   height: 850px;
   width: 800px;
-  border: .2px solid  rgba(177, 167, 167, 0.747);
+  border: .2px solid rgba(177, 167, 167, 0.747);
   background-color: rgba(177, 167, 167, 0.747);
   box-shadow: 20px 20px 50px 10px rgb(173, 152, 152)
 }
@@ -316,19 +323,20 @@ button, a {
   font-size: 50px;
 }
 
-.addActivityPage input, .addActivityPage select{
+.addActivityPage input,
+.addActivityPage select {
   height: 20px;
   width: 200px;
   border: 2px solid black;
   border-top: none;
   border-right: none;
   border-left: none;
- 
+
   margin-bottom: 10px;
   background-color: transparent;
 }
 
-.addActivityPage textarea{
+.addActivityPage textarea {
   height: 200px;
   width: 400px;
   border: 2px solid black;
@@ -346,36 +354,39 @@ button, a {
 
 
 
-@media screen and (max-width:280px){
- body .aboutMeInfo{
-    top:80%;
+@media screen and (max-width:280px) {
+  body .aboutMeInfo {
+    top: 80%;
   }
-  .registerPage textarea{
-    width:200px;
+
+  .registerPage textarea {
+    width: 200px;
   }
 }
-@media  screen and (min-width: 281px) and (max-width: 331px) {
- body .aboutMeInfo {
+
+@media screen and (min-width: 281px) and (max-width: 331px) {
+  body .aboutMeInfo {
     top: 65%;
   }
 }
-@media screen and (min-width:281px) and (max-width:540px){
-  .aboutMeInfo{
-    top:50%;
+
+@media screen and (min-width:281px) and (max-width:540px) {
+  .aboutMeInfo {
+    top: 50%;
   }
 }
 
-@media screen and (min-width:541px) and(max-width:360px){
-  .aboutMeInfo{
-    top:60%;
+@media screen and (min-width:541px) and(max-width:360px) {
+  .aboutMeInfo {
+    top: 60%;
   }
 }
 
 
-@media only screen and (min-width: 376px)and(max-width:766px)  {
- 
-  .aboutMeInfo{
-    top:50%;
+@media only screen and (min-width: 376px)and(max-width:766px) {
+
+  .aboutMeInfo {
+    top: 50%;
   }
 }
 
@@ -383,6 +394,7 @@ button, a {
   .aboutMeTitle {
     top: 65%;
   }
+
   .aboutMeInfo {
     top: 75%;
   }
@@ -392,6 +404,7 @@ button, a {
   .aboutMeTitle {
     top: 55%;
   }
+
   .aboutMeInfo {
     top: 65%;
   }
@@ -400,12 +413,13 @@ button, a {
 @media only screen and (max-width: 540px) and (max-height: 720px) {
   .aboutMeTitle {
     top: 55%;
-  
+
   }
+
   .aboutMeInfo {
     top: 65%;
   }
- 
+
 }
 
 @media only screen and (min-width: 545px) and (max-width: 668px) {
@@ -451,7 +465,7 @@ button, a {
 @media only screen and (min-width: 769px) {
   .signInPage {
     height: 400px;
-    
+
   }
 
 }
@@ -460,40 +474,38 @@ button, a {
 
 
 @media only screen and (max-width: 768px) {
+
   /* For mobile devices */
   .registerPage {
     width: 90%;
     height: 130%;
-  
+
   }
-  .registerPage h1{
+
+  .registerPage h1 {
     font-size: 40px;
   }
-  
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
   /* For tablets */
   .registerPage {
     width: 70%;
     height: 110%;
-  
+
   }
-  
- 
+
+
 }
 
 @media only screen and (min-width: 1024px) {
+
   /* For desktops and larger devices */
   .registerPage {
     width: 50%;
     height: 900px;
   }
- 
+
 }
-
-
-
-
-
-
