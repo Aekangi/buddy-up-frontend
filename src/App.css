@@ -262,12 +262,12 @@ a {
 
 .profileImage img {
   height: auto;
-  width: 900px;
+  width: 500px;
   grid-column: 1/2;
   margin-top: 20px;
   margin-left: 20px;
   border-radius: 80px;
-  box-shadow: 20px 20px 50px 10px #FDC4E6;
+  box-shadow: 20px 20px 50px 10px #b6e1d3;
 }
 
 .profileRight {
@@ -279,22 +279,23 @@ a {
 .profileRight h1 {
   font-size: 40px;
   margin-top: 10px;
-  color: white
+  color: #054c34;
 }
 
 .profileRight h2 {
   font-size: 25px;
   margin-top: 10px;
-  color: #FDC4E6;
+  color: #054c34;
 }
 
 .profileRight h3 {
-  color: white
+  color: #054c34
 }
 
 .profileRight p {
   font-size: 25px;
   font-weight: 500;
+  color: #054c34
 }
 
 .profileRight button {
@@ -304,7 +305,7 @@ a {
   width: 150px;
   border-radius: 10px;
   font-size: 15px;
-  background-color: #FDC4E6;
+  background-color: #a9d7c8;
 }
 
 .addActivityPage {
