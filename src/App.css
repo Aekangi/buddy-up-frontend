@@ -320,7 +320,7 @@ a {
 .addActivityPage {
   border: 2px solid white;
   position: absolute;
-  margin-left: 550px;
+  margin-left: 25%;
   margin-top: 30px;
   height: 850px;
   width: 800px;
@@ -363,7 +363,62 @@ a {
   background-color: transparent;
 }
 
+.update {
+  border: 2px solid white;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 30px;
+  height: 600px;
+  width: 600px;
+  border: .2px solid rgba(153, 179, 166, 0.747);
+  background-color: rgba(153, 179, 166, 0.747);
+  box-shadow: 20px 20px 50px 10px rgb(122, 147, 132);
+  border-radius: 10px;
+}
 
+.update h1 {
+  background-color: #83a398;
+  height: 70px;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.update h1 span {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+.updateProfile div {
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.updateProfile div input {
+  height: 20px;
+  width: 300px;
+  border: 2px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+.updateProfile div textarea {
+  height: 100px;
+  width: 400px;
+  border: 2px solid black;
+  margin-top: 20px;
+  background-color: transparent;
+}
 
 @media screen and (max-width:280px) {
   body .aboutMeInfo {

@@ -67,10 +67,10 @@ const UpdateProfile = ({  }) => {
 	}, []);
 
 	return (
-		<div>
-			<form onSubmit={handleSubmit}>
-				<h1>Update Profile</h1>
-				<div>
+		<div className='update'>
+			<form className='updateProfile' onSubmit={handleSubmit}>
+				<h1><span>Update Profile</span></h1>
+				<div >
 					<label htmlFor="firstName">First Name:</label>
 					<input
 						onChange={handleChange}
@@ -136,14 +136,15 @@ const UpdateProfile = ({  }) => {
 				</div>
 				<div>
 					<label htmlFor="about">About:</label>
-					<textarea
-						rows="10"
-						cols="20"
-						onChange={handleChange}
-						name="about"
-						type="text"
-						value={formValues.about}
-					/>
+					<div>
+						<textarea
+							name="description"
+							cols="3"
+							rows="5"
+							onChange={handleChange}
+							value={formValues.description}
+						></textarea>
+					</div>
 				</div>
 				<button>Submit</button>
 			</form>
