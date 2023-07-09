@@ -368,7 +368,7 @@ a {
   position: absolute;
   margin-left: 30%;
   margin-top: 30px;
-  height: 600px;
+  height: 650px;
   width: 600px;
   border: .2px solid rgba(153, 179, 166, 0.747);
   background-color: rgba(153, 179, 166, 0.747);
@@ -416,8 +416,17 @@ a {
   height: 100px;
   width: 400px;
   border: 2px solid black;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: transparent;
+}
+
+.updateProfile button {
+  background-color: transparent;
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
 }
 
 @media screen and (max-width:280px) {
