@@ -2,25 +2,21 @@ const About = () => {
   return (
     <div className="aboutMePage">
       <div className="aboutMeTitle">
-        <h1>BuddyUp</h1>
+        <h1><span>BuddyUp</span></h1>
       </div>
       <div className="aboutMeInfo">
         <p>
-          Doing activities with a buddy is not only fun and exciting, it has
-          some really great benefits too. We'll bore you with a few. You're more
-          likely to:
+        Introducing BuddyUp, the ultimate social companion app designed to bring people together and enhance your social experiences like never before. With its intuitive interface and powerful matching capabilities, BuddyUp connects like-minded individuals who share common interests, revolutionizing the way you find your ideal activity companion. Browse user profiles, explore detailed interests, and let BuddyUp's advanced matching algorithm connect you with compatible individuals for enjoyable and engaging social experiences.
+        </p>
+        <p>
+        Engaging in activities alongside a companion not only brings enjoyment and thrill but also offers numerous notable advantages. Allow us to share a few with you. You have a higher likelihood of:
         </p>
         <ul>
-          <li>Stick to your commitments</li>
-          <li> Build new friendships</li>
-          <li> Boost motivation</li>
-          <li> Improve your mental and physical well-being</li>
+          <li>Sticking to your commitments</li>
+          <li> Building new friendships</li>
+          <li> Boosting motivation</li>
+          <li> Improving your mental and physical well-being</li>
         </ul>
-        <p>
-          We created BuddyUp so people can do activities and go to events with
-          others who have similar interests but don't want to go alone. Sign up
-          to select an activity and match with a buddy of your choice.
-        </p>
 
         <a href="/register" alt="register">
           <button>BuddyUp</button>
