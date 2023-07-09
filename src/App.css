@@ -312,12 +312,13 @@ a {
   border: 2px solid white;
   position: absolute;
   margin-left: 550px;
-  margin-top: 40px;
+  margin-top: 30px;
   height: 850px;
   width: 800px;
-  border: .2px solid rgba(177, 167, 167, 0.747);
-  background-color: rgba(177, 167, 167, 0.747);
-  box-shadow: 20px 20px 50px 10px rgb(173, 152, 152)
+  border: .2px solid rgba(153, 179, 166, 0.747);
+  background-color: rgba(153, 179, 166, 0.747);
+  box-shadow: 20px 20px 50px 10px rgb(122, 147, 132);
+  border-radius: 10px;
 }
 
 .addActivityPage h1 {
