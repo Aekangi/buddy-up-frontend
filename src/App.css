@@ -320,20 +320,29 @@ a {
 }
 
 .addActivityPage {
-  border: 2px solid white;
+  /* border: 5px solid white; */
   position: absolute;
   margin-left: 25%;
   margin-top: 30px;
   height: 850px;
   width: 800px;
-  border: .2px solid rgba(153, 179, 166, 0.747);
+  border: 2px solid rgba(153, 179, 166, 0.747);
   background-color: rgba(153, 179, 166, 0.747);
   box-shadow: 20px 20px 50px 10px rgb(122, 147, 132);
-  border-radius: 10px;
+  border-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .addActivityPage h1 {
   font-size: 50px;
+  background-color: #699788;
+  margin-top: 0;
+  margin-left: 0;
+  height: 90px;
+  width: 800px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
 }
 
 .addActivityPage input,
