@@ -170,19 +170,20 @@ a {
   height: 600px;
   width: 500px;
   margin-top: 50px;
-  left: 50%;
+  left: 48%;
   transform: translateX(-50%);
-  background-color: rgba(177, 167, 167, 0.747);
-  box-shadow: 20px 20px 50px 10px rgb(173, 152, 152)
+  background-color: rgba(157, 192, 181, 0.747);
+  box-shadow: 20px 20px 50px 10px rgb(85, 123, 105)
 }
 
 .signInPage h1 {
   font-size: 60px;
-  background-color: rgba(163, 136, 136, 0.747);
+  background-color: rgba(81, 148, 130, 0.747);
   margin-top: 0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   height: 100px;
+  color: white;
 }
 
 .loginLabel {
@@ -217,10 +218,10 @@ a {
   margin-top: 40px;
   height: 850px;
   width: 500px;
-  border: .2px solid rgba(177, 167, 167, 0.747);
+  border: .2px solid rgba(159, 193, 184, 0.747);
   border-radius: 25px;
-  background-color: rgba(177, 167, 167, 0.747);
-  box-shadow: 20px 20px 50px 10px rgb(173, 152, 152)
+  background-color: rgba(159, 193, 184, 0.747);
+  box-shadow: 20px 20px 50px 10px rgb(119, 162, 142)
 }
 
 .label {
@@ -231,11 +232,12 @@ a {
 
 .registerPage h1 {
   font-size: 60px;
-  background-color: cadetblue;
+  background-color: rgba(81, 148, 130, 0.747);
   margin-top: 0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   height: 100px;
+  color: white;
 }
 
 .registerPage input {
@@ -250,7 +252,7 @@ a {
 }
 
 .registerPage textarea {
-  background-color: rgba(194, 189, 189, 0.747);
+  background-color: transparent;
   height: 100px;
   width: 300px
 }

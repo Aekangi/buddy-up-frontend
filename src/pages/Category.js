@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BASE_URL } from '../globals';
 import ActivityCard from '../components/ActivityCard';
-import '../styling/Category.css';
+
 
 const Category = () => {
 	let { category_id } = useParams();
